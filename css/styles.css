@@ -1,0 +1,242 @@
+@charset "UTF-8";
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: 'Work Sans', sans-serif;
+  color: black;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-image: url("https://i.postimg.cc/3Nf741Qj/artificial-flowers-desk-figurines-196658.jpg");
+}
+
+/*NIE MOŻNA TU POŁĄCZYĆ???*/
+.navigation {
+  padding: 12px 0;
+  color: white;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+}
+
+@media (max-width: 767px) {
+  .navigation ul li {
+    margin: 0 5px 0 0;
+  }
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.splash {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  min-height: 500px;
+  padding: 30px 0;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .splash {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+}
+
+.splash .splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.splash .splash-inner .page-title {
+  margin: 0;
+  font-size: 50px;
+  word-spacing: -8px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.splash .splash-inner .page-subtitle {
+  margin: 24px 0;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.container p {
+  color: #7f8fa6;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container .content-description h3 {
+  font-size: 48px;
+  margin: 0 0 72px 0;
+}
+
+.container .content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .container .content {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+}
+
+.container .content .inner-content {
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+  padding: 0 12px;
+}
+
+@media (max-width: 767px) {
+  .container .content .inner-content {
+    margin-top: 40px;
+  }
+}
+
+.container .content .inner-content h4 {
+  font-size: 24px;
+  margin: 0 0 12px 0;
+}
+
+.more-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  background: #dcdde1;
+}
+
+@media (max-width: 767px) {
+  .more-content {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+}
+
+.more-content .inner-more-content {
+  -ms-flex: 0 0 33,333%;
+      flex: 0 0 33,333%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+@media (max-width: 767px) {
+  .more-content .inner-more-content {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+}
+
+.more-content .inner-more-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.more-content .description {
+  padding: 0 40px;
+}
+
+.more-content .description h4 {
+  font-size: 24px;
+}
+
+.more-content .description p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  /*??*/
+}
+
+.footer .share-icons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.footer .share-icon {
+  margin: 0 5px;
+  border-radius: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .share-icon i {
+  font-size: 30px;
+}
+
+.footer .share-icon:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+/*# sourceMappingURL=styles.css.map */
